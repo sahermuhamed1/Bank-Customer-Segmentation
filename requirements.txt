@@ -1,0 +1,15 @@
+pandas==2.1.4
+numpy==1.26.2
+scipy==1.11.4 # Used for scipy.cluster.hierarchy
+
+# Plotting and visualization libraries
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.18.0
+kaleido==0.2.1 # Recommended for static image export with Plotly
+
+# Machine Learning - Clustering and Preprocessing
+# Scikit-learn 1.3.x is compatible with Pandas 2.x and NumPy 1.22+.
+scikit-learn==1.3.2 # Covers StandardScaler, KMeans, PCA, silhouette_score
+kneed==0.8.3 # A smaller library, usually quite stable.
+yellowbrick==1.5 # Yellowbrick 1.5 is generally compatible with scikit-learn 1.x
